@@ -1,0 +1,25 @@
+## Running Tests
+
+The test program includes various test cases that verify different aspects of the memory allocator.
+
+### To run all tests:
+```bash
+./my_malloc
+```
+
+### To run a specific test (where N is the test number):
+```bash
+./my_malloc -t N
+```
+
+### Test Cases
+1. Basic allocation and free
+2. Multiple allocations with pattern verification
+3. Zero size allocation
+4. Realloc functionality
+5. Pattern test for large allocations
+6. Alternating allocations and frees
+7. Heap status verification
+8. Minheap ordering
+9. Block size metadata
+10. Same-size allocations
